@@ -5,8 +5,8 @@
 	
 	"version":"1.2",
   "description":"Allow you to control MiX16 Apps with chataigne",
-  "url":"",
-  "downloadURL":"",
+  "url":"https://github.com/ziginfo/MiX16Apps-Chataigne-Module",
+  "downloadURL":"https://github.com/ziginfo/MiX16Apps-Chataigne-Module/archive/refs/heads/main.zip",
 	
 	"hasInput": true,
 	"hasOutput": true, 
