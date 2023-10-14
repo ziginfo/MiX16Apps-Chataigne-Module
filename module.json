@@ -1,0 +1,130 @@
+{
+	"name": "MiX16Apps",
+	"type": "OSC",
+	"path": "Software",
+	
+	"version":"1.2",
+  "description":"Allow you to control MiX16 Apps with chataigne",
+  "url":"",
+  "downloadURL":"",
+	
+	"hasInput": true,
+	"hasOutput": true, 
+
+	"hideDefaultCommands": false,
+	"hideDefaultParameters": [ ],
+	
+	"defaults": {
+	
+		"OSC Input": {
+			"localPort" : 9001, },
+			
+		"OSC Outputs": {
+			"OSC Output": {
+				"local" : false,
+				"remotePort" : 8000,
+				"listenToFeedback":false } }
+	},
+	
+	"parameters": {
+			"autoAdd":{"type":"Boolean"}
+	},
+	
+	"scripts": ["mix16apps.js"],
+	
+	"values": {
+	},
+	
+	"commands": {
+	
+	
+	
+		
+	"Go" : {
+			"menu" : "Main",
+			"callback" : "go",
+		},	
+		
+	"Go Back" : {
+			"menu" : "Main",
+			"callback" : "back",
+		},
+		
+	"Go Next" : {
+			"menu" : "Main",
+			"callback" : "next",
+		},
+		
+	"Stop Playlist" : {
+			"menu" : "Main",
+			"callback" : "stop_play",
+		},			
+		
+	"Stop All" : {
+			"menu" : "Main",
+			"callback" : "stop_all",
+		},		
+				
+	"Set Next Cue" : {
+			"menu" : "Main",
+			"callback" : "set_next",
+			"parameters" : {
+			
+			" GoTo Cue": {
+					"type": "Integer",
+					"default": 1, 
+					"min":0,
+					"max":100,
+					"useForMapping": true },
+	
+		}  },	
+				
+		"Reset Playlist" : {
+			"menu" : "Main",
+			"callback" : "reset",
+		},	
+	
+		"All Volumes Off" : {
+			"menu" : "Volume",
+			"callback" : "allVol_out",
+		},
+		
+		"All Volumes Full" : {
+			"menu" : "Volume",
+			"callback" : "allVol_full",
+		},	
+					
+		"Mic On" : {
+			"menu" : "Actions",
+			"callback" : "mic_on",
+		},			
+		
+		"Mute LiveIn" : {
+			"menu" : "Actions",
+			"callback" : "mute_liveIn",
+		},				
+		
+		"Start Camera" : {
+			"menu" : "Actions",
+			"callback" : "camera_start",
+		},			
+		
+		"Freeze Camera" : {
+			"menu" : "Actions",
+			"callback" : "camera_freeze",
+		},	
+				
+			
+		"Basic Request" : {
+			"menu" : "OSC Request",
+			"callback" : "basicinfo",
+		},			
+		
+		"Full Request" : {
+			"menu" : "OSC Request",
+			"callback" : "fullinfo",
+		},
+
+	
+	}
+}
