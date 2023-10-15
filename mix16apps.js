@@ -21,7 +21,7 @@ function stop_all() {
 }
 
 function set_next(val) {
-	local.send("/mix16apps/playlist/setgo "+val+"", 1.0);	
+	local.send("/mix16apps/playlist/setgo", val);	
 }
 
 function reset() {

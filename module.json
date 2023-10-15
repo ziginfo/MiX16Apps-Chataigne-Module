@@ -5,19 +5,19 @@
 	
 	"version":"1.2",
   "description":"Allow you to control MiX16 Apps with chataigne",
-  "url":"https://github.com/ziginfo/MiX16Apps-Chataigne-Module",
-  "downloadURL":"https://github.com/ziginfo/MiX16Apps-Chataigne-Module/archive/refs/heads/main.zip",
+  "url":"",
+  "downloadURL":"",
 	
 	"hasInput": true,
 	"hasOutput": true, 
 
-	"hideDefaultCommands": true,
+	"hideDefaultCommands": false,
 	"hideDefaultParameters": [ ],
 	
 	"defaults": {
 	
 		"OSC Input": {
-			"localPort" : 9001 },
+			"localPort" : 9001, },
 			
 		"OSC Outputs": {
 			"OSC Output": {
@@ -71,7 +71,7 @@
 			"parameters" : {
 			
 			" GoTo Cue": {
-					"type": "Integer",
+					"type": "String",
 					"default": 1, 
 					"min":0,
 					"max":100,
@@ -93,6 +93,19 @@
 			"menu" : "Volume",
 			"callback" : "allVol_full",
 		},	
+		
+		"All Volumes @" : {
+			"menu" : "Volume",
+			"callback" : "allVol_at",
+			"parameters" : {
+				
+				"Value": {
+					"type": "Float",
+					"default": 0, 
+					"min":0,
+					"max":100,
+					"useForMapping": true }, 
+			}  },
 					
 		"Mic On" : {
 			"menu" : "Actions",
@@ -114,6 +127,25 @@
 			"callback" : "camera_freeze",
 		},	
 				
+		"Go LightScene(name)" : {
+			"menu" : "Actions",
+			"callback" : "light_sceneName",
+			"parameters" : {
+				"Name": {
+					"type": "String" }, 
+		}  },
+		
+		"Go LightScene(no)" : {
+			"menu" : "Actions",
+			"callback" : "light_sceneNo",
+			"parameters" : {
+				"N°": {
+					"type": "String",
+					"default": 0, 
+					"min":0,
+					"max":100,
+					"useForMapping": true }, 
+		}  },
 			
 		"Basic Request" : {
 			"menu" : "OSC Request",

@@ -1,0 +1,1178 @@
+{
+  "metaData": {
+    "version": "1.9.16",
+    "versionNumber": 67856
+  },
+  "projectSettings": {
+    "containers": {
+      "dashboardSettings": {
+        "parameters": [
+          {
+            "value": "",
+            "controlAddress": "/showDashboardOnStartup",
+            "enabled": false
+          }
+        ]
+      },
+      "customDefinitions": {
+      }
+    }
+  },
+  "dashboardManager": {
+    "parameters": [
+      {
+        "value": true,
+        "controlAddress": "/editMode"
+      },
+      {
+        "value": false,
+        "controlAddress": "/snapping"
+      }
+    ],
+    "items": [
+      {
+        "niceName": "Playboard",
+        "type": "BaseItem",
+        "itemManager": {
+          "parameters": [
+            {
+              "value": [
+                360.0,
+                600.0
+              ],
+              "controlAddress": "/canvasSize",
+              "enabled": true
+            },
+            {
+              "value": "",
+              "controlAddress": "/backgroundImage"
+            }
+          ],
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -63.08571624755859,
+                    -249.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    177.0,
+                    109.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/values/_mix16apps_playlist_playingcue",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": false,
+                  "controlAddress": "/showLabel"
+                },
+                {
+                  "value": "Now Playing",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.7176470756530762,
+                    0.800000011920929,
+                    0.2823529541492462,
+                    1.0
+                  ],
+                  "controlAddress": "/textColor",
+                  "enabled": true
+                },
+                {
+                  "value": 20,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.3294117748737335,
+                    0.4235294163227081,
+                    0.729411780834198,
+                    0.8549019694328308
+                  ],
+                  "controlAddress": "/borderColor",
+                  "enabled": true
+                },
+                {
+                  "value": 6.0,
+                  "controlAddress": "/borderWidth"
+                },
+                {
+                  "value": [
+                    0.05490196123719215,
+                    0.0470588244497776,
+                    0.1333333402872086,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/miX16Apps/values/_mix16apps_playlist_playingcue",
+              "controllable": "/modules/miX16Apps/values/_mix16apps_playlist_playingcue"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -99.58571624755859,
+                    -134.6666717529297
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    250.0,
+                    35.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/values/_mix16apps_playlist_nextcue",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": false,
+                  "controlAddress": "/showLabel"
+                },
+                {
+                  "value": "Next Cue",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.7176470756530762,
+                    0.800000011920929,
+                    0.2823529541492462,
+                    1.0
+                  ],
+                  "controlAddress": "/textColor",
+                  "enabled": true
+                },
+                {
+                  "value": 18,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.3764705955982208,
+                    0.3803921639919281,
+                    0.2980392277240753,
+                    1.0
+                  ],
+                  "controlAddress": "/borderColor",
+                  "enabled": true
+                },
+                {
+                  "value": 3.0,
+                  "controlAddress": "/borderWidth"
+                },
+                {
+                  "value": [
+                    0.1529411822557449,
+                    0.05490196123719215,
+                    0.0117647061124444,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.7058823704719543,
+                    0.196078434586525,
+                    0.1294117718935013,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": false
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 1",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/miX16Apps/values/_mix16apps_playlist_nextcue",
+              "controllable": "/modules/miX16Apps/values/_mix16apps_playlist_nextcue"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -9.585714340209961,
+                    -40.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    70.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/values/_mix16apps_playlist_go",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": false,
+                  "controlAddress": "/showLabel"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 14,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.501960813999176,
+                    0.529411792755127,
+                    0.729411780834198,
+                    1.0
+                  ],
+                  "controlAddress": "/borderColor",
+                  "enabled": true
+                },
+                {
+                  "value": 1.0,
+                  "controlAddress": "/borderWidth"
+                },
+                {
+                  "value": [
+                    0.08235294371843338,
+                    0.3803921639919281,
+                    0.01960784383118153,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 2",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/miX16Apps/values/_mix16apps_playlist_go",
+              "controllable": "/modules/miX16Apps/values/_mix16apps_playlist_go"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -9.585714340209961,
+                    -88.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    70.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/templates/go/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "GO",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 26,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.501960813999176,
+                    0.529411792755127,
+                    0.729411780834198,
+                    1.0
+                  ],
+                  "controlAddress": "/borderColor",
+                  "enabled": true
+                },
+                {
+                  "value": 1.0,
+                  "controlAddress": "/borderWidth"
+                },
+                {
+                  "value": [
+                    0.08235294371843338,
+                    0.3803921639919281,
+                    0.01960784383118153,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 3",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/modules/miX16Apps/templates/go/trigger",
+              "controllable": "/modules/miX16Apps/templates/go/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -98.89999389648438,
+                    -78.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    80.0,
+                    25.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/templates/goBack/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "<< Back",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 16,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.5137255191802979,
+                    0.7058823704719543,
+                    0.729411780834198,
+                    0.8549019694328308
+                  ],
+                  "controlAddress": "/borderColor",
+                  "enabled": true
+                },
+                {
+                  "value": 1.0,
+                  "controlAddress": "/borderWidth"
+                },
+                {
+                  "value": [
+                    0.07450980693101883,
+                    0.2980392277240753,
+                    0.2666666805744171,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 4",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/modules/miX16Apps/templates/goBack/trigger",
+              "controllable": "/modules/miX16Apps/templates/goBack/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    72.0,
+                    -78.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    80.0,
+                    25.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/templates/goNext/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Next >>",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "controlAddress": "/textColor",
+                  "enabled": false
+                },
+                {
+                  "value": 16,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.5137255191802979,
+                    0.7058823704719543,
+                    0.729411780834198,
+                    0.8549019694328308
+                  ],
+                  "controlAddress": "/borderColor",
+                  "enabled": true
+                },
+                {
+                  "value": 1.0,
+                  "controlAddress": "/borderWidth"
+                },
+                {
+                  "value": [
+                    0.07450980693101883,
+                    0.2980392277240753,
+                    0.2666666805744171,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 5",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/modules/miX16Apps/templates/goNext/trigger",
+              "controllable": "/modules/miX16Apps/templates/goNext/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -44.58571624755859,
+                    -9.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    140.0,
+                    25.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/templates/stopPlaylist/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Stop Playlist",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    1.0,
+                    0.9803921580314636,
+                    0.1372549086809158,
+                    1.0
+                  ],
+                  "controlAddress": "/textColor",
+                  "enabled": true
+                },
+                {
+                  "value": 18,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.4117647111415863,
+                    0.3725490272045135,
+                    0.1607843190431595,
+                    1.0
+                  ],
+                  "controlAddress": "/borderColor",
+                  "enabled": true
+                },
+                {
+                  "value": 1.0,
+                  "controlAddress": "/borderWidth"
+                },
+                {
+                  "value": [
+                    0.3803921639919281,
+                    0.1529411822557449,
+                    0.03921568766236305,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 6",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/modules/miX16Apps/templates/stopPlaylist/trigger",
+              "controllable": "/modules/miX16Apps/templates/stopPlaylist/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -24.58571434020996,
+                    27.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    100.0,
+                    30.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/templates/stopAll/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Panic",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.7764706015586853,
+                    0.800000011920929,
+                    0.07450980693101883,
+                    1.0
+                  ],
+                  "controlAddress": "/textColor",
+                  "enabled": true
+                },
+                {
+                  "value": 22,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.4117647111415863,
+                    0.3725490272045135,
+                    0.1607843190431595,
+                    1.0
+                  ],
+                  "controlAddress": "/borderColor",
+                  "enabled": true
+                },
+                {
+                  "value": 1.0,
+                  "controlAddress": "/borderWidth"
+                },
+                {
+                  "value": [
+                    0.3803921639919281,
+                    0.1529411822557449,
+                    0.03921568766236305,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 7",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/modules/miX16Apps/templates/stopAll/trigger",
+              "controllable": "/modules/miX16Apps/templates/stopAll/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -155.0,
+                    -203.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    94.0,
+                    24.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "Now Playing",
+                  "controlAddress": "/text"
+                },
+                {
+                  "value": 16.0,
+                  "customUI": 3,
+                  "controlAddress": "/size"
+                }
+              ],
+              "niceName": "Comment",
+              "hideInEditor": true,
+              "type": "DashboardCommentItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -163.0,
+                    -127.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    66.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "Next Cue",
+                  "controlAddress": "/text"
+                },
+                {
+                  "value": 15.0,
+                  "customUI": 3,
+                  "controlAddress": "/size"
+                }
+              ],
+              "niceName": "Comment 1",
+              "hideInEditor": true,
+              "type": "DashboardCommentItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -155.0,
+                    -295.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    300.0,
+                    25.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/locked"
+                },
+                {
+                  "value": "/modules/miX16Apps/values/_mix16apps_projectname",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Session Name :",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 15,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 8",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/miX16Apps/values/_mix16apps_projectname",
+              "controllable": "/modules/miX16Apps/values/_mix16apps_projectname"
+            }
+          ],
+          "viewOffset": [
+            2,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "editing": true
+      }
+    ],
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "parrots": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "layout": {
+    "mainLayout": {
+      "type": 1,
+      "width": 1588,
+      "height": 934,
+      "direction": 2,
+      "shifters": [
+        {
+          "type": 1,
+          "width": 1588,
+          "height": 934,
+          "direction": 1,
+          "shifters": [
+            {
+              "type": 1,
+              "width": 329,
+              "height": 934,
+              "direction": 2,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 329,
+                  "height": 139,
+                  "currentContent": "Modules",
+                  "tabs": [
+                    {
+                      "name": "Modules"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 329,
+                  "height": 789,
+                  "currentContent": "Dashboard",
+                  "tabs": [
+                    {
+                      "name": "Dashboard"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "width": 1253,
+              "height": 934,
+              "direction": 2,
+              "shifters": [
+                {
+                  "type": 1,
+                  "width": 1253,
+                  "height": 898,
+                  "direction": 1,
+                  "shifters": [
+                    {
+                      "type": 0,
+                      "width": 862,
+                      "height": 898,
+                      "currentContent": "State Machine",
+                      "tabs": [
+                        {
+                          "name": "State Machine"
+                        },
+                        {
+                          "name": "Module Router"
+                        },
+                        {
+                          "name": "Morpher"
+                        },
+                        {
+                          "name": "Warnings"
+                        },
+                        {
+                          "name": "Outliner"
+                        }
+                      ]
+                    },
+                    {
+                      "type": 0,
+                      "width": 385,
+                      "height": 898,
+                      "currentContent": "Inspector",
+                      "tabs": [
+                        {
+                          "name": "Inspector"
+                        },
+                        {
+                          "name": "Help"
+                        },
+                        {
+                          "name": "Logger"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 1253,
+                  "height": 30,
+                  "currentContent": "Sequence Editor",
+                  "tabs": [
+                    {
+                      "name": "Sequences"
+                    },
+                    {
+                      "name": "Sequence Editor"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "windows": null
+  },
+  "modules": {
+    "items": [
+      {
+        "niceName": "MiX16Apps",
+        "type": "MiX16Apps",
+        "scripts": {
+          "items": [
+            {
+              "niceName": "mix16apps",
+              "type": "BaseItem",
+              "scriptParams": {
+                "hideInEditor": true
+              }
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "params": {
+          "parameters": [
+            {
+              "value": false,
+              "controlAddress": "/autoAdd"
+            }
+          ],
+          "containers": {
+            "oscInput": {
+              "parameters": [
+                {
+                  "value": 9001,
+                  "hexMode": false,
+                  "controlAddress": "/localPort"
+                }
+              ]
+            },
+            "oscOutputs": {
+              "items": [
+                {
+                  "parameters": [
+                    {
+                      "value": false,
+                      "controlAddress": "/local"
+                    },
+                    {
+                      "value": "127.0.0.1",
+                      "controlAddress": "/remoteHost"
+                    },
+                    {
+                      "value": 8000,
+                      "hexMode": false,
+                      "controlAddress": "/remotePort"
+                    }
+                  ],
+                  "niceName": "OSC Output",
+                  "type": "BaseItem"
+                }
+              ],
+              "viewOffset": [
+                0,
+                0
+              ],
+              "viewZoom": 1.0
+            },
+            "pass_through": {
+            }
+          }
+        },
+        "templates": {
+          "items": [
+            {
+              "niceName": "Go",
+              "type": "CommandTemplate",
+              "menuPath": "Main",
+              "commandType": "Go",
+              "params": null
+            },
+            {
+              "niceName": "Go Back",
+              "type": "CommandTemplate",
+              "menuPath": "Main",
+              "commandType": "Go Back",
+              "params": null
+            },
+            {
+              "niceName": "Go Next",
+              "type": "CommandTemplate",
+              "menuPath": "Main",
+              "commandType": "Go Next",
+              "params": null
+            },
+            {
+              "niceName": "Stop Playlist",
+              "type": "CommandTemplate",
+              "menuPath": "Main",
+              "commandType": "Stop Playlist",
+              "params": null
+            },
+            {
+              "niceName": "Stop All",
+              "type": "CommandTemplate",
+              "menuPath": "Main",
+              "commandType": "Stop All",
+              "params": null
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "values": {
+          "parameters": [
+            {
+              "value": "3, Star Time, 00:02:49 / 00:01:35",
+              "controlAddress": "/_mix16apps_playlist_playingcue",
+              "type": "String",
+              "niceName": "/mix16apps/playlist/playingcue",
+              "customizable": true,
+              "removable": true,
+              "description": "",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": "Victor Jara's Hands",
+              "controlAddress": "/_mix16apps_playlist_nextcue",
+              "type": "String",
+              "niceName": "/mix16apps/playlist/nextcue",
+              "customizable": true,
+              "removable": true,
+              "description": "",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": "GO 4",
+              "controlAddress": "/_mix16apps_playlist_go",
+              "type": "String",
+              "niceName": "/mix16apps/playlist/go",
+              "customizable": true,
+              "removable": true,
+              "description": "",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": "Full Playlist-2023",
+              "controlAddress": "/_mix16apps_projectname",
+              "type": "String",
+              "niceName": "/mix16apps/projectname",
+              "customizable": true,
+              "removable": true,
+              "description": "",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            }
+          ]
+        }
+      }
+    ],
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "customVariables": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "states": {
+    "parameters": [
+      {
+        "value": true,
+        "controlAddress": "/snapGridMode"
+      },
+      {
+        "value": true,
+        "controlAddress": "/showSnapGrid"
+      },
+      {
+        "value": 16,
+        "hexMode": false,
+        "controlAddress": "/snapGridSize"
+      }
+    ],
+    "viewOffset": [
+      -31,
+      4
+    ],
+    "viewZoom": 1.0,
+    "transitions": {
+      "hideInEditor": true,
+      "viewOffset": [
+        0,
+        0
+      ],
+      "viewZoom": 1.0
+    },
+    "comments": {
+      "hideInEditor": true,
+      "viewOffset": [
+        -31,
+        4
+      ],
+      "viewZoom": 1.0
+    }
+  },
+  "sequences": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  },
+  "routers": {
+    "viewOffset": [
+      0,
+      0
+    ],
+    "viewZoom": 1.0
+  }
+}
