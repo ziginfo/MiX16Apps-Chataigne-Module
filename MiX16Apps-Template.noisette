@@ -1063,7 +1063,7 @@
         "values": {
           "parameters": [
             {
-              "value": "4, Victor Jara's Hands, 00:00:09 / 00:03:10",
+              "value": "Playing Cue",
               "controlAddress": "/_mix16apps_playlist_playingcue",
               "type": "String",
               "niceName": "/mix16apps/playlist/playingcue",
@@ -1074,7 +1074,7 @@
               "feedbackOnly": false
             },
             {
-              "value": "Catch A Ride",
+              "value": "Next Cue",
               "controlAddress": "/_mix16apps_playlist_nextcue",
               "type": "String",
               "niceName": "/mix16apps/playlist/nextcue",
@@ -1096,7 +1096,7 @@
               "feedbackOnly": false
             },
             {
-              "value": "Full Playlist-2023",
+              "value": "Name of the Session",
               "controlAddress": "/_mix16apps_projectname",
               "type": "String",
               "niceName": "/mix16apps/projectname",
