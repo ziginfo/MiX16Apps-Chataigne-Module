@@ -21,7 +21,7 @@
   "dashboardManager": {
     "parameters": [
       {
-        "value": false,
+        "value": true,
         "controlAddress": "/editMode"
       },
       {
@@ -849,7 +849,7 @@
                 {
                   "type": 0,
                   "width": 329,
-                  "height": 109,
+                  "height": 139,
                   "currentContent": "Modules",
                   "tabs": [
                     {
@@ -860,7 +860,7 @@
                 {
                   "type": 0,
                   "width": 329,
-                  "height": 819,
+                  "height": 789,
                   "currentContent": "Dashboard",
                   "tabs": [
                     {
@@ -1063,7 +1063,7 @@
         "values": {
           "parameters": [
             {
-              "value": "Playing Cue",
+              "value": "3, Star Time, 00:02:49 / 00:01:35",
               "controlAddress": "/_mix16apps_playlist_playingcue",
               "type": "String",
               "niceName": "/mix16apps/playlist/playingcue",
@@ -1074,7 +1074,7 @@
               "feedbackOnly": false
             },
             {
-              "value": "Next Cue",
+              "value": "Victor Jara's Hands",
               "controlAddress": "/_mix16apps_playlist_nextcue",
               "type": "String",
               "niceName": "/mix16apps/playlist/nextcue",
@@ -1085,7 +1085,7 @@
               "feedbackOnly": false
             },
             {
-              "value": "GO 5",
+              "value": "GO 4",
               "controlAddress": "/_mix16apps_playlist_go",
               "type": "String",
               "niceName": "/mix16apps/playlist/go",
@@ -1096,7 +1096,7 @@
               "feedbackOnly": false
             },
             {
-              "value": "Name of the Session",
+              "value": "Full Playlist-2023",
               "controlAddress": "/_mix16apps_projectname",
               "type": "String",
               "niceName": "/mix16apps/projectname",

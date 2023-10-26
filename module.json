@@ -42,27 +42,27 @@
 		
 	"Go" : {
 			"menu" : "Main",
-			"callback" : "go",
+			"callback" : "go"
 		},	
 		
 	"Go Back" : {
 			"menu" : "Main",
-			"callback" : "back",
+			"callback" : "back"
 		},
 		
 	"Go Next" : {
 			"menu" : "Main",
-			"callback" : "next",
+			"callback" : "next"
 		},
 		
 	"Stop Playlist" : {
 			"menu" : "Main",
-			"callback" : "stop_play",
+			"callback" : "stop_play"
 		},			
 		
 	"Stop All" : {
 			"menu" : "Main",
-			"callback" : "stop_all",
+			"callback" : "stop_all"
 		},		
 				
 	"Set Next Cue" : {
@@ -75,23 +75,23 @@
 					"default": 1, 
 					"min":0,
 					"max":100,
-					"useForMapping": true },
+					"useForMapping": true }
 	
 		}  },	
 				
 		"Reset Playlist" : {
 			"menu" : "Main",
-			"callback" : "reset",
+			"callback" : "reset"
 		},	
 	
 		"All Volumes Off" : {
 			"menu" : "Volume",
-			"callback" : "allVol_out",
+			"callback" : "allVol_out"
 		},
 		
 		"All Volumes Full" : {
 			"menu" : "Volume",
-			"callback" : "allVol_full",
+			"callback" : "allVol_full"
 		},	
 		
 		"All Volumes @" : {
@@ -104,27 +104,27 @@
 					"default": 0, 
 					"min":0,
 					"max":100,
-					"useForMapping": true }, 
+					"useForMapping": true } 
 			}  },
 					
 		"Mic On" : {
 			"menu" : "Actions",
-			"callback" : "mic_on",
+			"callback" : "mic_on"
 		},			
 		
 		"Mute LiveIn" : {
 			"menu" : "Actions",
-			"callback" : "mute_liveIn",
+			"callback" : "mute_liveIn"
 		},				
 		
 		"Start Camera" : {
 			"menu" : "Actions",
-			"callback" : "camera_start",
-		},			
+			"callback" : "camera_start"
+		},		
 		
 		"Freeze Camera" : {
 			"menu" : "Actions",
-			"callback" : "camera_freeze",
+			"callback" : "camera_freeze"
 		},	
 				
 		"Go LightScene(name)" : {
@@ -132,7 +132,7 @@
 			"callback" : "light_sceneName",
 			"parameters" : {
 				"Name": {
-					"type": "String" }, 
+					"type": "String" } 
 		}  },
 		
 		"Go LightScene(no)" : {
@@ -144,18 +144,18 @@
 					"default": 0, 
 					"min":0,
 					"max":100,
-					"useForMapping": true }, 
+					"useForMapping": true } 
 		}  },
 			
 		"Basic Request" : {
 			"menu" : "OSC Request",
-			"callback" : "basicinfo",
+			"callback" : "basicinfo"
 		},			
 		
 		"Full Request" : {
 			"menu" : "OSC Request",
-			"callback" : "fullinfo",
-		},
+			"callback" : "fullinfo"
+		}
 
 	
 	}
