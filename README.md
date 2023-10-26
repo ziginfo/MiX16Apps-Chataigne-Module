@@ -1,4 +1,4 @@
-# MiX16Apps control with chataigne
+## MiX16Apps control with chataigne
 
 OSC ports must be set in the OSC Settings in the Option-Menu; they can be freely configured;    
 try Input Port : 8000 and Output Port : 9001  
